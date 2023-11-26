@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,10 @@
 body {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+}
+
+.hide {
+    display: none;
 }
 
 /* header */
@@ -25,7 +27,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-    padding-right: 2rem;    
+    padding-right: 2rem;   
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logoTinder {
@@ -35,4 +41,24 @@ body {
 .fa-bars {
     color: white;
     font-size: 2.5rem;
+}
+
+/* main */
+
+.main {
+    background-image: url("/assets/tinder-background.webp");
+    background-size: cover;
+    background-position: center;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 2rem;
+    padding-top: 10rem;
 }
