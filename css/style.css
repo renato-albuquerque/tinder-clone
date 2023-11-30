@@ -135,7 +135,7 @@ body {
 .footer-1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     gap: 2rem;
     padding: 0 2rem;
 }
@@ -149,10 +149,23 @@ body {
     font-weight: bold;
 }
 
-.titleFooter-faq {
-    font-size: 1.2rem;
-}
-
 .itemFooter-1 {
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.itemFooter-1:hover {
+    color: #D6002F;
+    transition: all .3S ease;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: #D6002F;
+    transition: all .3S ease;
 }
