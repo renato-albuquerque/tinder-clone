@@ -131,3 +131,28 @@ body {
     text-align: center;
     color: darkgray;
 }
+
+.footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.wrapTitleItemFooter-1 {
+    width: 12rem;
+}
+
+.titleFooter-1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.titleFooter-faq {
+    font-size: 1.2rem;
+}
+
+.itemFooter-1 {
+    font-size: 1.2rem;
+}
