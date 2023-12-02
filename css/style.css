@@ -148,7 +148,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     margin-top: 1rem;
 }
 
@@ -189,7 +189,7 @@ body {
 
 .footer-2 {
     margin-top: 2rem;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 
 .wrapFirstPartFooter-2 {
@@ -202,6 +202,10 @@ body {
 .imgGooglePlayFooter, .imgAppStoreFooter {
     width: 12rem;   
     cursor: pointer;
+}
+
+.wrapSecondPartFooter-2 {
+    padding: 0 2rem;
 }
 
 .textFooter-2 {

@@ -1,0 +1,19 @@
+:root {
+    font-size: 62.5%;
+}
+
+/* mobile m, 375px */
+
+@media(min-width: 375px) {
+    .main {
+        padding-top: 10rem;
+    }
+    
+    .footer-1 {
+        column-gap: 4rem;
+    }
+
+    .wrapFirstPartFooter-2 {
+        column-gap: 4rem;
+    }
+}
