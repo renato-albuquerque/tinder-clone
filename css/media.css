@@ -16,4 +16,10 @@
     .wrapFirstPartFooter-2 {
         column-gap: 4rem;
     }
+
+    .wrapSecondPartFooter-2 {
+        padding: 0 3rem;
+    }
 }
+
+
