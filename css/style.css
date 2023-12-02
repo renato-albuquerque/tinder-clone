@@ -51,6 +51,7 @@ body {
     background-image: url("/assets/tinder-background.webp");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
     background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: color;
@@ -128,8 +129,8 @@ body {
 }
 
 .imgGooglePlay {
-    width: 18rem;
-    margin-bottom: 3rem;
+    width: 14rem;
+    margin: 0 auto 3rem;
     cursor: pointer;
 }
 

@@ -139,12 +139,11 @@
         text-align: end;
         margin-top: 6rem;
     }
-}
-
+    
     .footer-1 {
         gap: 4rem;
     }
-
+    
     .titleFooter-1 {
         font-size: 1.6rem;
     }
@@ -156,31 +155,31 @@
     .wrapTitleItemFooter-1 {
         width: 16rem;
     }
-
+    
     .wrapFirstPartFooter-2 {
         gap: 4rem;
     }
-
+    
     .imgGooglePlayFooter, .imgAppStoreFooter {
         width: 14rem;   
     }
-
+    
     .imgAppStoreFooter {
         display: inline;
     }
-
+    
     .wrapSecondPartFooter-2 {
         padding: 0 20rem;
     }
-
+    
     .textFooter-2 {
         font-size: 1.2rem;
     }
-
+    
     .itemFooter-3 {
         font-size: 1.2rem;
     }
-
+    
     .itemCopyright {
         font-size: 1.2rem;
     }
