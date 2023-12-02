@@ -137,7 +137,8 @@ body {
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    color: darkgray;
+    color: rgb(184, 184, 184); /* adapted. */
+    margin-bottom: 0;
 }
 
 /* footer-1 */
@@ -158,11 +159,13 @@ body {
 .titleFooter-1 {
     font-size: 1.4rem;
     font-weight: bold;
+    color: #21262E;
 }
 
 .itemFooter-1 {
     font-size: 1.2rem;
     cursor: pointer;
+    color: #21262E;
 }
 
 .itemFooter-1:hover {
@@ -174,6 +177,7 @@ body {
     font-size: 2rem;
     margin-right: 1rem;
     cursor: pointer;
+    color: #21262E;
 }
 
 .fa-brands:hover {
@@ -204,6 +208,7 @@ body {
     font-size: 1rem;
     text-align: justify;
     margin-top: 2rem;
+    color: #21262E;
 }
 
 /* footer-3 */
@@ -231,6 +236,7 @@ body {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    color: #21262E;
 }
 
 .itemFooter-3:hover {
@@ -247,5 +253,7 @@ body {
 .itemCopyright {
     font-size: 1rem;
     font-weight: bold;
+    text-align: center;
+    color: #21262E;
 }
 
