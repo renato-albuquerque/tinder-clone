@@ -46,4 +46,54 @@
     }
 }
 
+@media(min-width: 768px) {
+    .logoTinder {
+        width: 12rem;
+    }
+    
+    .fa-bars {
+        font-size: 3rem;
+    }
+    
+    .main {
+        padding-top: 14rem;
+    }
+    
+    .titleMain {
+        margin-bottom: 5rem;
+        font-size: 5rem;
+    }
+    
+    .wrapSubtitleMain {
+        margin-bottom: 5rem;   
+    }
 
+    .subtitleMain {
+        font-size: 2.5rem;
+    }
+
+    .wrapBtnMain {
+        margin-bottom: 5rem;
+    }
+
+    .btnCreateMain {
+        padding: 0.8rem;
+        width: 45rem;
+        font-size: 2.5rem;
+    }
+    
+    .btnLoginMain {
+        padding: 0.8rem;
+        width: 45rem;
+        font-size: 2.5rem;
+    }
+
+    .imgGooglePlay {
+        margin-bottom: 5rem;
+        width: 20rem;
+    }
+
+    .textBottomMain {
+        font-size: 1.5rem;
+    }
+}
