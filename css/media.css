@@ -97,3 +97,91 @@
         font-size: 1.5rem;
     }
 }
+
+@media(min-width: 1000px) {
+    .main {
+        padding-top: 16rem;
+    }
+
+    .titleMain {
+        margin-bottom: 4.5rem;
+        font-size: 9rem;
+    }
+    
+    .wrapSubtitleMain {
+        margin-bottom: 4.5rem;   
+    }
+
+    .subtitleMain {
+        font-size: 2rem;
+    }
+
+    .wrapBtnMain {
+        margin-bottom: 4.5rem;
+    }
+
+    .btnCreateMain {
+        padding: 0.8rem;
+        width: 35rem;
+        font-size: 2.5rem;
+    }
+
+    .btnLoginMain {
+        display: none;
+    }
+
+    .imgGooglePlay {
+        display: none;
+    }
+
+    .textBottomMain {
+        font-size: 1.2rem;
+        text-align: end;
+        margin-top: 6rem;
+    }
+}
+
+    .footer-1 {
+        gap: 4rem;
+    }
+
+    .titleFooter-1 {
+        font-size: 1.6rem;
+    }
+    
+    .itemFooter-1 {
+        font-size: 1.4rem;
+    }
+    
+    .wrapTitleItemFooter-1 {
+        width: 16rem;
+    }
+
+    .wrapFirstPartFooter-2 {
+        gap: 4rem;
+    }
+
+    .imgGooglePlayFooter, .imgAppStoreFooter {
+        width: 14rem;   
+    }
+
+    .imgAppStoreFooter {
+        display: inline;
+    }
+
+    .wrapSecondPartFooter-2 {
+        padding: 0 20rem;
+    }
+
+    .textFooter-2 {
+        font-size: 1.2rem;
+    }
+
+    .itemFooter-3 {
+        font-size: 1.2rem;
+    }
+
+    .itemCopyright {
+        font-size: 1.2rem;
+    }
+}
