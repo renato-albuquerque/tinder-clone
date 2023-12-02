@@ -206,3 +206,46 @@ body {
     margin-top: 2rem;
 }
 
+/* footer-3 */
+
+.footer-3 {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapItemsFooter-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 0.5rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.itemFooter-3 {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.itemFooter-3:hover {
+    color: #D6002F;
+    transition: all .3S ease;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemCopyright {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
