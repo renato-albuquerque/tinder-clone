@@ -10,6 +10,30 @@
     }
     
     .footer-1 {
+        column-gap: 3rem;
+    }
+
+    .wrapTitleItemFooter-1 {
+        width: 13rem;
+    }
+
+    .wrapFirstPartFooter-2 {
+        column-gap: 3rem;
+    }
+
+    .wrapSecondPartFooter-2 {
+        padding: 0 3rem;
+    }
+}
+
+/* mobile l, 425px */
+
+@media(min-width: 425px) {
+    .main {
+        padding-top: 12rem;
+    }
+
+    .footer-1 {
         column-gap: 4rem;
     }
 
@@ -18,7 +42,7 @@
     }
 
     .wrapSecondPartFooter-2 {
-        padding: 0 3rem;
+        padding: 0 4rem;
     }
 }
 
