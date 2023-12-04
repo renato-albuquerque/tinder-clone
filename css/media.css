@@ -99,6 +99,76 @@
 }
 
 @media(min-width: 1000px) {
+    .navFa-bars {
+        display: none;
+    }
+
+    .logoTinder {
+        width: 18rem;
+    }
+
+    .wrapLogoMenuDesktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .navMenuDesktop {
+        display: inline-flex;
+    }
+
+    .ulMenuDesktop {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .itemMenuDesktop {
+        color: white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .itemMenuDesktop:hover {
+        color: #D6002F;
+        text-decoration: underline;
+        transition: all .3S ease;
+    }
+
+    .wrapHeaderBtn {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .headerBtnLanguage {
+        background: none;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .headerBtnLanguage:hover {
+        opacity: 0.8;
+    }
+
+    .headerBtnLogin {
+        background-color: white;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: 0.5rem 3rem;
+        border-radius: 3rem;
+    }
+
+    .headerBtnLogin:hover {
+        opacity: 0.8;
+    }
+    
     .main {
         padding-top: 16rem;
     }
