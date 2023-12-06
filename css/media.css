@@ -56,16 +56,16 @@
     }
     
     .main {
-        padding-top: 14rem;
+        padding-top: 8rem;
     }
     
     .titleMain {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
         font-size: 5rem;
     }
     
     .wrapSubtitleMain {
-        margin-bottom: 5rem;   
+        margin-bottom: 3rem;   
     }
 
     .subtitleMain {
@@ -73,7 +73,7 @@
     }
 
     .wrapBtnMain {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     .btnCreateMain {
@@ -89,7 +89,7 @@
     }
 
     .imgGooglePlay {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
         width: 20rem;
     }
 
@@ -128,7 +128,7 @@
     
     .itemMenuDesktop {
         color: white;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: bold;
         cursor: pointer;
     }
@@ -147,7 +147,7 @@
     .headerBtnLanguage {
         background: none;
         color: white;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
         cursor: pointer;
     }
@@ -159,7 +159,7 @@
     .headerBtnLogin {
         background-color: white;
         color: black;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
         padding: 0.5rem 3rem;
         border-radius: 3rem;
@@ -252,5 +252,96 @@
     
     .itemCopyright {
         font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1400px) {
+    .logoTinder {
+        width: 20rem;
+    }
+    
+    .itemMenuDesktop {
+        font-size: 1.8rem;
+    }
+
+    .headerBtnLanguage {
+        font-size: 1.8rem;
+    }
+
+    .headerBtnLogin {
+        font-size: 1.8rem;
+    }
+    
+    .main {
+        padding-top: 20rem;
+    }
+
+    .titleMain {
+        margin-bottom: 8rem;
+        font-size: 10rem;
+    }
+    
+    .wrapSubtitleMain {
+        margin-bottom: 8rem;   
+    }
+
+    .subtitleMain {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .wrapBtnMain {
+        margin-bottom: 8rem;
+    }
+
+    .btnCreateMain {
+        padding: 0.8rem;
+        width: 50rem;
+        font-size: 4rem;
+    }
+
+    .textBottomMain {
+        font-size: 1.6rem;
+        margin-top: 6rem;
+    }
+    
+    .footer-1 {
+        gap: 8rem;
+    }
+    
+    .titleFooter-1 {
+        font-size: 1.8rem;
+    }
+    
+    .itemFooter-1 {
+        font-size: 1.6rem;
+    }
+    
+    .wrapTitleItemFooter-1 {
+        width: 20rem;
+    }
+    
+    .wrapFirstPartFooter-2 {
+        gap: 8rem;
+    }
+    
+    .imgGooglePlayFooter, .imgAppStoreFooter {
+        width: 18rem;   
+    }
+    
+    .wrapSecondPartFooter-2 {
+        padding: 0 20rem;
+    }
+    
+    .textFooter-2 {
+        font-size: 1.6rem;
+    }
+    
+    .itemFooter-3 {
+        font-size: 1.6rem;
+    }
+    
+    .itemCopyright {
+        font-size: 1.6rem;
     }
 }
