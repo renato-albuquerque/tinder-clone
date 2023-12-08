@@ -1,4 +1,4 @@
-# Tinder Clone
+# Tinder Clone | SharpCoders2 Program
 
 Responsive project, mobile first, developed in HTML, CSS, Bootstrap.
 Challenge proposed by "Imã Tech" and "MXM Sistemas", SharpCoders2 Program. <br>
